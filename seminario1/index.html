@@ -4,36 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Ismael Braz</title>
-  <style>
+ <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
       text-align: center;
+      padding: 20px;
     }
     main {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
     }
-    header, footer, section, article, figure {
-      margin: 1.5rem 0;
+    h1, h2, h3 {
+      color: #0077b6;
     }
+
+    #nome{
+      color: #eef;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #eef;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #0077b6;
+      color: white;
+      margin-top: 20px;
+    }
+
     img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 0 auto;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
     }
+
   </style>
 </head>
 <body>
-  <!-- Cabeçalho -->
   <header>
-    <h1>Ismael Braz</h1>
+    <h1 id="nome">Ismael Braz</h1>
     <p>Programador Back-End | Estudante de Engenharia da Computação na UFC</p>
   </header>
 
-  <!-- Conteúdo Principal -->
   <main>
     <section id="sobre">
       <h2>Sobre Mim</h2>
